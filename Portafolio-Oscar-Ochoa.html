@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <!--Metadatos-->
+      <meta charset="utf-8">
+      <meta name="author" content="Oscar Ochoa">
+      <meta name="description" content="Portafolio de Oscar Ochoa">
+      <meta name="keywords" content="HTML, CSS, JavaScript, React">
+      <meta name="vieweport" content="width=device-width, initial-scale=1">
+      <!--Titulo-->
+      <title>Oscar Ochoa | Desarrollo Web Front-End</title>
+      <!--Favicon-->
+      <link rel="icon" type="image/x-icon" href="Imagenes/icono.png">
+      <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!--Iconos de bootstrap-->
+      <link href="style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!--Google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <!--Barra de navegacion-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="Imagenes/icono.png" width="50" alt="Logo de la pagina">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Seccion Hero-->
+      <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+          <img class="hero-imagen-desarrollador" src="Imagenes/Imagen-desarrolador.svg" alt="Foto de Oscar Ochoa">
+          <h1>Hola, soy Oscar Ochoa</h1>
+          <h2>Desarrollo sitios web y soy estudiante de ingenieria en videojuegos.</h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="Imagenes/lenguajes-de-programacion.svg">
+        </div>
+      </section>
+      <!--Sobre mi-->
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo texto-blanco">Conoce a Oscar Ochoa</h2>
+          <p class="seccion-texto">Actualmente estudiante universitario de la carrera de Ingeniería en diseño y desarrollo en videojuegos, soy una persona joven, pero con experiencia con el trato de personas, trabajo en equipo, buena expresión escrita y oral, responsable y organizado.
+            Con conocimientos avanzados de inglés, expresándome y entendiendo con facilidad.
+            Estoy en busca de obtener una oportunidad laboral, tengo toda la disposición de aprender rápidamente y con responsabilidad las tareas que se me encomienden, siendo a la vez muy flexible y adaptándome rápidamente a los cambios.</p>
+        </div>
+      </section>
+      <!--Experiencia-->
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!--Desarrollo Web-->
+            <div class="columna col-12 col-lg-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web</p>
+              <p>Actualmente, mi experiencia en desarrollo web se limita a los proyectos realizados en la universidad. No obstante, al trabajar en la creación de mi portafolio, he tenido la oportunidad de practicar algunas técnicas comunes en este campo. Estoy completamente dispuesto a seguir aprendiendo y perfeccionando mis habilidades.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">HTML</span>
+                <span class="badge text-bg-primary">CSS</span>
+                <span class="badge text-bg-primary">JavaScript</span>
+                <span class="badge text-bg-primary">React</span>
+              </div>
+            </div>
+            <!--Experiencia laboral-->
+            <div class="columna col-12 col-lg-4">
+              <i class="bi bi-journal"></i>
+              <p class="experiencia-titulo">Experiencia laboral</p>
+              <p>Mi experiencia laboral ha sido principalmente en atención al cliente, donde desarrollé habilidades esenciales como el trabajo en equipo, la resolución de conflictos y la adaptabilidad, además de mejorar mi capacidad para tratar con diferentes personas.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Colaboracion</span>
+                <span class="badge text-bg-primary">Adaptabilidad</span>
+                <span class="badge text-bg-primary">Responsabilidad</span>
+              </div>
+            </div>
+            <!--Estudiante-->
+            <div class="columna col-12 col-lg-4">
+              <i class="bi bi-book"></i>
+              <p class="experiencia-titulo">Estudiante</p>
+              <p>Como estudiante de la Universidad Francisco Gavidia, he aprendido diversos lenguajes y herramientas de programación, como C#, HTML, CSS, JavaScript, MySQL, GitHub y Microsoft Server. Ahora, busco fortalecer estas habilidades aplicándolas en un entorno laboral.</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">C#</span>
+                <span class="badge text-bg-primary">MySQL</span>
+                <span class="badge text-bg-primary">Microsoft Server</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Proyectos-->
+      <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">De momentos solo he creado proyectos relacionados a videojuegos</h3>
+        <!--Galeria de proyectos-->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!--Proyecto 1-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="Imagenes/Proyecto1.jpeg" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://youtu.be/ztiXtw9OQWA" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscar-ochoa-chávez-1aaa6920b/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 2-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="Imagenes/Proyecto2.jpeg" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://youtu.be/ztiXtw9OQWA" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscar-ochoa-chávez-1aaa6920b/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 3-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="Imagenes/Proyecto3.jpeg" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://youtu.be/ztiXtw9OQWA" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscar-ochoa-chávez-1aaa6920b/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Proyecto 4-->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="Imagenes/Proyecto4.jpeg" alt="Proyecto 4">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://youtu.be/ztiXtw9OQWA" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscar-ochoa-chávez-1aaa6920b/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contacto-->
+      <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+              <div class="col-12 col-lg-4 seccion-titulo">
+                Hablemos
+              </div>
+              <div class="col-12 col-lg-4 descripcion">
+                Contactame para iniciar tu proyecto web
+              </div>
+              <div class="col-12 col-lg-4">
+                <a href="mailto:oscar_ochoa@live.com">
+                  <button type="button">
+                    Contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Pie de pagina-->
+      <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="Imagenes/icono-blanco.svg" alt="Logo de portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://github.com/Ochoscar12" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/oscar-ochoa-chávez-1aaa6920b/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/ochoscar_?igsh=MXF4ZHYxNDlvajRnMQ==" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="mailto:oscar_ochoa@live.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Oscar Ochoa (2024) &#169;</div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
